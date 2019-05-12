@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319
 https://medium.com/@koba04/react-v16-serverside-rendering-cb5640928872
 https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages
+## IP Address not changing due to DNS Caching on Chrome
+https://www.redsome.com/flush-clear-dns-cache-google-chrome-browser/
