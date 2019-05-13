@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Post from './Post';
+import './assets/css/font-awesome.min.css';
 
 function App() {
   return (
