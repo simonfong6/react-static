@@ -1,8 +1,8 @@
 // Home.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from './subcomponents/Navbar.js';
-import logo from './images/ESW.png';
+import Banner from './subcomponents/Banner.js';
+import Footer from './subcomponents/Footer.js';
 import './assets/css/main.css';
 
 class Home extends React.Component {
@@ -11,27 +11,7 @@ class Home extends React.Component {
     <div id="page-wrapper">
       <Navbar />
 
-      <section id="banner">
-
-        <div class="inner">
-
-          <header>
-            <h2>UCSD Solar Car</h2>
-          </header>
-          <p>Welcome!
-          <br />
-          Engineers for a Sustainable World
-          <br />
-          by <a href="http://html5up.net">HTML5 UP</a>.</p>
-          <footer>
-            <ul class="buttons stacked">
-              <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-            </ul>
-          </footer>
-          
-        </div>
-
-      </section>
+      <Banner />
 
       <article id="main">
 
@@ -196,21 +176,7 @@ class Home extends React.Component {
 
       </section>
 
-      <footer id="footer">
-
-        <ul class="icons">
-          <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-          <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-          <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-          <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-        </ul>
-
-        <ul class="copyright">
-          <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-
-      </footer>
+      <Footer />
 
     </div>);
   }
