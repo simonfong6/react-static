@@ -28,6 +28,12 @@ class FirstSection extends React.Component {
           deadlines, budgets, designs, reviews while doing their best to control
           all the unforeseen variables that may arise. 
         </p>
+        <p class="text-left my-3" >
+          Being a member of Triton Solar Car is more than just being a part of
+          any other club, it allows students to not only create a better future
+          for themselves, but for the world by supporting sustainable, clean
+          energy.
+        </p>
       </header>
     );
   }
