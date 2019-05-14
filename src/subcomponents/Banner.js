@@ -15,7 +15,7 @@ class Banner extends React.Component {
           <br />
           Engineers for a Sustainable World
           <br />
-          by <a href="http://html5up.net">HTML5 UP</a>.</p>
+          </p>
           <footer>
             <ul class="buttons stacked">
               <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
