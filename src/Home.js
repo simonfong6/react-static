@@ -9,7 +9,12 @@ class Home extends React.Component {
     return (
     <div id="page-wrapper">
 
-      <Banner />
+      <Banner 
+        title="UCSD Solar Car"
+        lineOne="Welcome!"
+        lineTwo="Engineers for a Sustainable World"
+        button={true}
+      />
 
       <article id="main">
         <FirstSection />

@@ -11,7 +11,7 @@ class Navbar extends React.Component {
         <nav id="nav">
           <ul>
             <li class="current"><Link to="/">About Us</Link></li>
-            <li><a href="left-sidebar.html">Team</a></li>
+            <li><Link to="/team/">Team</Link></li>
             <li><a href="right-sidebar.html">Updates</a></li>
             <li><Link to="/post/">Media</Link></li>
             <li><a href="contact.html">Donate</a></li>
